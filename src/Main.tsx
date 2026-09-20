@@ -1,8 +1,11 @@
 import ReactDom from 'react-dom/client';
+import App from "./App";
 
 function Main() {
     return (
-        <h1>Hello World</h1>
+        <div>
+            <App />
+        </div>
     );
 }
 
